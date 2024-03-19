@@ -1,0 +1,59 @@
+.nav{
+    background-color: #7209b7;
+    display: flex;
+    width: 100%;
+    height: 100px;
+}
+
+.rightnav{
+    display: flex;
+    align-items: center;
+    width: 20%;
+    height: 100px;
+    text-decoration: none;
+    color: white;
+    font-family: pratik;
+    font-size: 100%;
+    justify-content: center;
+}
+
+@font-face {
+    font-family: pratik;
+    src: url(/MadimiOne-Regular.ttf);
+}
+
+@font-face {
+    font-family: aniket;
+    src: url(/K2D-Bold.ttf);
+}
+
+.leftnav{
+    width: 80%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+    font-family: aniket;
+}
+
+.leftnav a{
+    text-decoration: none;
+    color: #f79d65;
+}
+
+.leftnav button{
+    margin: 5%;
+    padding: 1%;
+    color: #f79d65;
+    border-color: #f79d65;
+    background: transparent;
+    border-radius: 12px;
+    outline: none;
+}
+
+.rightnav img{
+    height: 30px;
+    border-radius: 12px;
+    margin:0;
+}
